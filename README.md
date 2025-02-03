@@ -69,6 +69,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by:BALASUBRAMANIAM L
  RegisterNumber: 24901213
 
+```
 module de1(a,b,c,d,e,f,g,h);
 input a,b;
 output c,d,e,f,g,h;
@@ -79,7 +80,8 @@ assign f = ~(a & b);
 assign g = ~(a | b);
 assign h = ~(a ^ b);
 endmodule
- 
+
+```
 **Logic symbol & Truthtable**
 ![alt text](<Screenshot 2024-11-21 174005.png>)
 
